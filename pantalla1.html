@@ -1,0 +1,45 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Documento sin título</title>
+<script src="SpryAssets/SpryMenuBar.js" type="text/javascript"></script>
+<link href="SpryAssets/SpryMenuBarHorizontal.css" rel="stylesheet" type="text/css" />
+<style type="text/css">
+body {
+	background-color: #000;
+}
+</style>
+</head>
+
+<body>
+<div id="uno">
+  <ul id="MenuBar1" class="MenuBarHorizontal">
+    <li><a href="PORTADA.html" target="contenido" class="MenuBarItemSubmenu">PORTADA</a>
+      <ul>
+        <li><a href="primerindex.html" target="contenido"> VADECUM</a>        </li>
+      </ul>
+    </li>
+    <li><a href="segundoindex.html" target="contenido">REVISTA</a></li>
+    <li><a href="Quintoindex.html" target="contenido" class="MenuBarItemSubmenu">PUBLICACIONES</a>
+      <ul>
+        <li><a href="RECETAS.html" target="contenido" class="MenuBarItemSubmenu">RECETAS</a>
+          <ul>
+            <li><a href="terceroindex.html" target="contenido">Manzanilla</a></li>
+          </ul>
+        </li>
+      </ul>
+    </li>
+    <li><a href="cuartoindex.html" target="contenido">CONTACTO</a></li>
+  </ul>
+  <p>&nbsp;</p>
+  <p>&nbsp;</p>
+</div>
+<div id="dos">
+  <iframe name="contenido" src="portada.html" width="100%" height="500px" frameborder="0"></iframe>
+</div>
+<script type="text/javascript">
+var MenuBar1 = new Spry.Widget.MenuBar("MenuBar1", {imgDown:"SpryAssets/SpryMenuBarDownHover.gif", imgRight:"SpryAssets/SpryMenuBarRightHover.gif"});
+</script>
+</body>
+</html>
